@@ -5,10 +5,9 @@ export class MainMenu extends HTMLElement{
     }
     render(){
         this.innerHTML=/* html */ `
-        
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Practica</a>
+                <a class="navbar-brand" href="index.html">Campus Airlines</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -21,7 +20,7 @@ export class MainMenu extends HTMLElement{
                             <a class="nav-link" href="#">Rutas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Personal</a>
+                            <a class="nav-link" href="personal.html">Personal</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Fidelización</a>

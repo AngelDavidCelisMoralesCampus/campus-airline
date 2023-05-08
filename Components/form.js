@@ -15,7 +15,7 @@ export class MainForm extends HTMLElement{
                             <div class="row g-3">
                                 <div class="col-4">
                                     <label for="fechaVuelo" class="form-label">Fecha de Vuelo</label>
-                                    <input type="date" class="form-control" id="createdAt" name="createdAt">   
+                                    <input type="date" class="form-control" id="fechaVuelo" name="fechaVuelo">   
                                     <box-icon name='dollar-circle'></box-icon>
                                 </div>
                                 <div class="col-4">
@@ -39,7 +39,7 @@ export class MainForm extends HTMLElement{
                                 <div class="col-4">
                                     <label for="PrefHora" class="form-label">Preferencia Horaria</label>
                                     <select class="form-select" aria-label="Default select example">
-                                        <option selected style="">Seleccione el tipo</option>
+                                        <option selected style="text-muted">Seleccione el tipo</option>
                                         <option value="1">Primera Hora</option>
                                         <option value="2">Diurna</option>
                                         <option value="3">Medio Día</option>
